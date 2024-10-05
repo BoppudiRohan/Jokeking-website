@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #101820;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero {
+    background: url("https://i.ibb.co/GMMHDYr/Everyonehavingfun-resized-66cb7405e7d5d.jpg" ) no-repeat center center/cover;
+    color: #fff;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.services {
+    padding: 50px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: center;
+}
+
+.service-item {
+    background: #fff;
+    padding: 20px;
+    margin: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.Activities {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+/* Targeting the specific paragraph within the .Activities-item */
+.Activities-item p {
+    font-size: 20px;           /* Change the font size */
+    font-weight: bold;         /* Make the text bold */
+    color: #ff4500;            /* Change the text color */
+    font-family: 'Arial', sans-serif;  /* Change the font family */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 2px;       /* Add spacing between letters */
+    text-align: center;        /* Center the text */
+    margin-top: 10px;          /* Add some space above the text */
+}
+
+
+.Activities-items {
+    display: flex;
+    justify-content: center;
+}
+
+.Activities-item {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.Joke-manager {
+    padding: 50px 20px;
+    background: #101820;
+    color: #fff;
+    text-align: center;
+}
+
+.Joke-manager img {
+    margin-top: 20px;
+}
+
+.APP {
+    padding: 50px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.APP-slider {
+    display: flex;
+    overflow-x: auto;
+}
+
+.APP-slider img {
+    margin: 0 10px;
+    width: 400px;
+    height: auto;
+}
+
+.cta {
+    padding: 50px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+}
+
+.cta .btn-large {
+    background: #fff;
+    color: #007BFF;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+footer {
+    background: #101820;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media {
+    margin-bottom: 20px;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .service-items, .Activities-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .APP-slider {
+        flex-direction: column;
+    }
+}
